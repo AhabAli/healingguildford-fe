@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Tahu!";
+  src: url("../fonts/Tahu.eot");
+  src: url("../fonts/Tahu.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Tahu.woff2") format("woff2"),
+    url("../fonts/Tahu.woff") format("woff"),
+    url("../fonts/Tahu.ttf") format("truetype"),
+    url("../fonts/Tahu.svg#../fonts/Tahu!") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Strangeways";
+  src: url("../fonts/StrangewaysSample-Bold.eot");
+  src: url("../fonts/StrangewaysSample-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/StrangewaysSample-Bold.woff2") format("woff2"),
+    url("../fonts/StrangewaysSample-Bold.woff") format("woff"),
+    url("../fonts/StrangewaysSample-Bold.ttf") format("truetype"),
+    url("../fonts/StrangewaysSample-Bold.svg#../fonts/StrangewaysSample-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Strangeways";
+  src: url("../fonts/StrangewaysSample.eot");
+  src: url("../fonts/StrangewaysSample.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/StrangewaysSample.woff2") format("woff2"),
+    url("../fonts/StrangewaysSample.woff") format("woff"),
+    url("../fonts/StrangewaysSample.ttf") format("truetype"),
+    url("../fonts/StrangewaysSample.svg#../fonts/StrangewaysSample")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Strangeways";
+  src: url("../fonts/StrangewaysSample-Bold_1.eot");
+  src: url("../fonts/StrangewaysSample-Bold_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/StrangewaysSample-Bold_1.woff2") format("woff2"),
+    url("../fonts/StrangewaysSample-Bold_1.woff") format("woff"),
+    url("../fonts/StrangewaysSample-Bold_1.ttf") format("truetype"),
+    url("../fonts/StrangewaysSample-Bold_1.svg#../fonts/StrangewaysSample-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Strangeways";
+  src: url("../fonts/StrangewaysSample_1.eot");
+  src: url("../fonts/StrangewaysSample_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/StrangewaysSample_1.woff2") format("woff2"),
+    url("../fonts/StrangewaysSample_1.woff") format("woff"),
+    url("../fonts/StrangewaysSample_1.ttf") format("truetype"),
+    url("../fonts/StrangewaysSample_1.svg#../fonts/StrangewaysSample")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Beauty";
+  src: url("../fonts/Beauty.eot");
+  src: url("../fonts/Beauty.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Beauty.woff2") format("woff2"),
+    url("../fonts/Beauty.woff") format("woff"),
+    url("../fonts/Beauty.ttf") format("truetype"),
+    url("../fonts/Beauty.svg#../fonts/Beauty") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

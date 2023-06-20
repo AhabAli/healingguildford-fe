@@ -1,0 +1,307 @@
+@import url(fonts.css);
+
+/* Navigation */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff2e;
+  backdrop-filter: blur(50px);
+  height: 97px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+header.inner-pages {
+  background-color: #9d9a9a73;
+}
+.navbar-brand img {
+  height: 89px;
+  object-fit: contain;
+}
+ul.navbar-nav {
+  gap: 20px;
+  height: 97px;
+  align-items: center;
+}
+
+a.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+nav.navbar {
+  padding: 0;
+}
+ul.navbar-nav li.nav-item {
+  position: relative;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  padding: 0 10px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  font-family: "Nunito";
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul.navbar-nav li.nav-item.active a.nav-link {
+  color: #fff;
+  font-weight: 900;
+}
+
+ul.navbar-nav li.nav-item.active:before {
+  opacity: 1;
+}
+
+ul.navbar-nav li.nav-item:hover:before {
+  opacity: 1;
+}
+ul.navbar-nav li.nav-item:before {
+  content: "";
+  position: absolute;
+  background-color: #f89300;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: 300ms all ease;
+  opacity: 0;
+}
+ul.navbar-nav li.nav-item:hover a.nav-link {
+  color: #fff;
+}
+/* Navigation end */
+
+.home-page {
+  height: 100vh;
+  background-image: url("../images/home-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.home-section {
+  padding-top: 170px;
+  height: 100%;
+}
+
+.padding-for-header {
+  padding-top: 97px;
+}
+
+.main-body {
+  /* height: 100vh; */
+  min-height: 100vh;
+}
+
+.color-white {
+  color: #fff;
+}
+
+h1.main-h1 {
+  font-family: "Strangeways";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.overlayed-bg {
+  background: rgba(16, 16, 16, 60%);
+}
+
+.height-full {
+  min-height: 100vh;
+}
+
+.third-fold {
+  position: absolute;
+  bottom: 100px;
+  padding-left: 65px;
+}
+
+.second-fold {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.last-text-home span {
+  display: block;
+  text-align: center;
+}
+
+.full-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-content-holder {
+  height: 100%;
+  padding: 135px 36px 0px;
+  background-image: url("../images/beads.png"), url("../images/about-right.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, center center;
+  background-size: auto, cover;
+}
+
+.site-h2 {
+  font-family: "Tahu!";
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.flex-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quotations {
+  color: #f89300;
+  font-family: "Tahu!";
+  font-weight: 400;
+  font-size: 103px;
+  display: inline-block;
+  line-height: 0.5;
+  vertical-align: middle;
+  transform: translateY(20px);
+}
+
+span.starting-letter {
+  font-family: "Tahu!";
+  color: #222222;
+  font-size: 60px;
+  transform: translateY(30px);
+  padding-right: 10px;
+}
+
+p.textt {
+  color: #666666;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+p.textt.flex-text {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.about-content-text {
+  position: relative;
+}
+
+.about-content-text.starting-quotation::before {
+  content: '"';
+  font-family: "Tahu!";
+  font-size: 100px;
+  color: #f89300;
+  line-height: 1;
+  top: 0;
+  position: absolute;
+  left: -20px;
+}
+p.flex-paragraph.heading-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Tahu!";
+  color: #222222;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.about-content-final-fold {
+  padding-right: 100px;
+}
+
+.seeker-adon {
+  background-image: url("../images/seeker-left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.seekers-page {
+  background-image: url("../images/seeker-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.follower-adon {
+  background-color: #ffffff;
+  background-image: url(../images/follower-bg.png);
+  background-position: -8% 103%;
+}
+
+p.quote {
+  color: #5e2f0a;
+  font-size: 20px;
+  font-family: "Nunito";
+  font-weight: 900;
+}
+
+.churches-adon {
+  background-image: url("../images/church-bg.jpg");
+  min-height: 100vh;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.blur-card {
+  border: 1px solid #f89300;
+  border-radius: 16px;
+  padding: 20px;
+  background: #00000026;
+  backdrop-filter: blur(40px);
+  margin-bottom: 40px;
+}
+p.church-textt {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "Nunito";
+}
+ul.church-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.church-list li {
+  display: flex;
+  align-items: start;
+  gap: 4px;
+}
+
+ul.church-list li p.church-textt {
+  margin: 0;
+}
+
+ul.church-list li img {
+  transform: translateY(8px);
+}
+.divider-orange {
+  width: 100%;
+  height: 1px;
+  background: #f89300;
+  margin: 15px 0px;
+}
+
+h3.heading-3 {
+  font-family: "Tahu!";
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+h3.heading-3 span {
+  font-size: 20px;
+}
